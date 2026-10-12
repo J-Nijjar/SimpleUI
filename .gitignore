@@ -1,0 +1,54 @@
+# Build outputs (CMake)
+/build/
+/build-*/
+/cmake-build-*/
+/out/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/compile_commands.json
+/Testing/
+
+# Compiled binaries and libraries
+*.exe
+*.dll
+*.so
+*.so.*
+*.dylib
+*.a
+*.lib
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+
+# Visual Studio / VS Code local settings
+.vs/
+.vscode/*
+!.vscode/extensions.json
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.sln.docstates
+
+# Other IDEs
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+*~
+
+# Local dependencies (if vendored outside source control)
+/deps/
+/vendor-local/
